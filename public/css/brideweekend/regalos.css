@@ -1,0 +1,25 @@
+.title-gifts {
+    font-weight: bold;
+    color: #00698e;
+}
+.subtitle-gifts {
+    color: #001c75;
+    font-weight: bold;
+    margin-bottom: 2vh !important;
+}
+.hr-gifts {
+    width: 100%;
+}
+.btn_buys {
+    background-color: #00728c !important;
+}
+.text-principal {
+    width: 60%;
+    margin-left: 20%;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    .text-principal {
+        width: 100%;
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,123 @@
+.icons-categories {
+    width: 85% !important;
+}
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+}
+.size-icon-footer {
+    font-size: 1.8rem;
+}
+.hr-providers {
+    border: 4px solid #FB7497;
+}
+.title {
+    border-left: 6px solid white;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 160px !important;
+}
+.size-heart {
+    font-size: 1.4rem;
+}
+.pointer {
+    cursor: pointer;
+}
+.badge {
+    font-size: 1rem;
+    font-weight: normal !important;
+}
+.sizefilters {
+    font-size: 1.1rem;
+}
+.border-card {
+    border-top: 10px solid #ee6ea9 !important;
+}
+.lSPager > li > a > img {
+    height: 120px !important;
+    width: 100% !important;
+    object-fit: contain;
+}
+#map {
+    height: 500px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#divComments {
+    height: 350px;
+    overflow-x: hidden;
+}
+.size-average {
+    font-size: 1rem !important;
+}
+.text-stars {
+    font-size: 1.1rem;
+}
+.full {
+    font-size: 0.8rem !important;
+}
+.card-questions {
+    border-top: 1px solid black !important;
+    border-left: unset !important;
+    border-right: unset !important;
+    border-bottom: unset !important;
+    border-radius: unset !important;
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(179,179,179,1);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(179,179,179,1);
+    box-shadow: 2px 2px 6px 0px rgba(179,179,179,1);
+}
+.size-card-promotion {
+    font-size: 0.7rem;
+}
+.card-promotions {
+    border-radius: 15px !important;
+    border: unset !important;
+}
+.card-promotion {
+    border: unset !important;
+    border-top: 20px solid #E2E2E2 !important;
+}
+.card-home-providers {
+    border: unset !important;
+    border-radius: 15px !important;
+}
+.content-card-provider {
+    border-radius: 0px 0px 15px 15px;
+}
+.round-img-home {
+    border-radius: 15px 15px 0px 0px !important;
+    height: 160px !important;
+    object-fit: cover !important;
+}
+.border-hr-promotions {
+    border: 2px solid #FB7497 !important;
+}
+.border-hr-promotions2 {
+    border: 4px solid #FB7497 !important;
+}
+.line {
+    text-decoration: line-through;
+}
+.card-img-top-promotions {
+    height: 165px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px 15px 0px 0px;
+}
+#WindowLoad
+{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:3200;
+    filter:alpha(opacity=65);
+   -moz-opacity:65;
+    opacity:0.9;
+    background:#999;
+}
+.cardPromotions:hover {
+    text-decoration: unset;
+}

@@ -1,0 +1,112 @@
+.tabs {
+    padding: 0px !important;
+}
+.large-coment {
+    height: 300px !important;
+    overflow: scroll !important;
+}
+.p-coment {
+    padding-top: 15px !important;
+}
+.margins {
+    margin: 0px !important;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #F8DADF !important;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #F8DADF !important;
+}
+.profile-provider {
+    height: 160px !important;
+    object-fit: cover !important;
+}
+.lSSlideOuter .lSPager.lSGallery img {
+    height: 100px !important;
+}
+.starrr { display: inline-block !important; }
+ 
+.starrr i {
+    font-size: 16px !important;
+    padding: 0 1px !important;
+    cursor: pointer !important;
+    color: #ffd119 !important;
+}
+.rating input {
+    position:absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    opacity:0;
+    cursor:pointer;
+    width:17px;
+}
+ 
+.rating span {
+    width:24px;
+    height:16px;
+    line-height:16px;
+    padding:1px 22px 1px 0; /* 1px FireFox fix */
+    /* background:url(stars.png) no-repeat -22px 0; */
+}
+ 
+/* Change span immediately following the checked radio */
+ 
+.rating input:checked + span {
+    background-position:-22px 0;
+}
+ 
+/* Reset all remaining stars back to default background.
+   This supersedes the above due to its ordering. */
+ 
+.rating input:checked + span ~ span {
+    background-position:0 0;
+}
+.rating { 
+    border: none;
+    float: left;
+}
+    
+.rating input { display: none; } 
+.rating label:before { 
+    margin: 5px;
+    font-size: 1.8em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+    background: transparent;
+}
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+[type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
+    border: transparent !important;
+}
+.rating .half:before { 
+    content: "\f089";
+    position: absolute;
+}
+    
+.rating label { 
+    color: #ddd; 
+    float: right;
+    cursor: pointer;
+}
+    
+.rating  input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked)  label:hover, /* hover current star */
+.rating:not(:checked)  label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating input:checked + label:hover, /* hover current star when changing rating */
+.rating input:checked ~ label:hover,
+.rating label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating input:checked ~ label:hover ~ label { color: #FFED85;  } 
+    
+.title-review{
+    font-weight: bold;
+}
+    
+.checked {
+    color: orange;
+}

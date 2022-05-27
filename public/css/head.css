@@ -1,0 +1,39 @@
+.hr-h {
+    border: 0.5px solid black;
+}
+.width-logo-head {
+    width: 80%;
+}
+body {
+    background: white;
+}
+.bold {
+    font-weight: bold;
+}
+.img {
+    width: 100%;
+}
+.footer {
+    background: #F2EBEF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.back-grey {
+    background: #3C3C3B;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.fab {
+    font-size: 4vh;
+}
+.row {
+    margin: auto;
+}
+.back-log {
+    background: #FB7497;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+.icon-footer {
+    width: 6%;
+}

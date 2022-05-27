@@ -1,0 +1,159 @@
+.btnSpecial {
+    border: 2px solid #f6b2b5;
+    border-radius: 10px;
+}
+.indicator {
+    display: none !important;
+}
+.width-head {
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+.hr-city {
+    width: 60% !important;
+    margin-left: 20% !important;
+    border: 1px solid white !important;
+}
+.background-title {
+    margin-top: 271px !important;
+    /* background: black !important; */
+    background-color:rgb(0,0,0, 0.80) !important;
+}
+.size-title {
+    font-size: 30px !important;
+    margin: 10px;
+}
+.img {
+    width: 100% !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+.size-date {
+    font-size: 30px !important;
+}
+.card {
+    border-bottom: #3A3B3C 2px solid !important;
+    margin-top: 0px;
+}
+.size-schedule {
+    font-size: 18px !important;
+}
+.paddings {
+    padding: 0px !important;
+}
+.object {
+    object-fit: cover !important;
+}
+.large-location {
+    height: 500px !important;
+}
+.map {
+    width: 100% !important;
+    height: 500px !important;
+    border: unset !important;
+}
+.btn-contact {
+    cursor: unset !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+}
+.inputs-contact {
+    border: 1px solid grey !important;
+    border-radius: 10px !important;
+    height: 36px !important;
+}
+.card-contact {
+    border-bottom: unset !important;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+.space {
+    height: 15px !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+#WindowLoad
+{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:3200;
+    filter:alpha(opacity=65);
+   -moz-opacity:65;
+    opacity:0.9;
+    background:#999;
+}
+.height-logo {
+    height: 180px !important;
+}
+.img-logo {
+    height: 100% !important;
+    object-fit: contain !important;
+}
+.tabs {
+    background: transparent;
+}
+.title-tabs {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+}
+.title-tabs {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+    padding: 0px !important;
+}
+.tabs .tab a {
+    padding: 0 24px !important;
+}
+.hr-concept {
+    border: 2px solid #3A3B3C !important;
+}
+.div-logo {
+    background: rgb(255,255,255,.8);
+    width: 60% !important;
+    margin-left: 20% !important;
+    height: 80px !important;
+    margin-top: 183px;
+}
+.img-carousel {
+    height: 100%;
+    object-fit: contain;
+}
+.title-carousel {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 25px;
+}
+.size-subtitle {
+    font-size: 21px !important;
+}
+.scroll-x {
+    overflow-x: hidden;
+    height: 250px;
+}
+.card .scroll-x p {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    .width-head {
+        background-size: contain !important;
+        height: 110px !important;
+    }
+    .background-title {
+        margin-top: 30% !important;
+    }
+    .large-location {
+        height: unset !important;
+    }
+    .map {
+        height: 330px !important;
+    }
+}

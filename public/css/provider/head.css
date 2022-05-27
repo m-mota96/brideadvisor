@@ -1,0 +1,33 @@
+.size-icon-menu {
+    font-size: 1.3rem;
+}
+body {
+    background: white !important;
+}
+.active {
+    color: pink !important;
+}
+a:hover {
+    color: pink !important;
+    text-decoration: unset !important;
+}
+a.text-dark:hover, a.text-dark:focus {
+    color: pink !important;
+}
+.session {
+    color: pink !important;
+    font-size: 1.3rem !important;
+}
+.dropdown {
+    right: 0px !important;
+}
+.navbar-nav {
+    width: 93%;
+}
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+}
+.size-icon-footer {
+    font-size: 1.8rem;
+}

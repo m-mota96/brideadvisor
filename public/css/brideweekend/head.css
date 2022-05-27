@@ -1,0 +1,134 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    border-top: 15px #3a3b3c solid;
+    background-image: url('../../media/brideweekend/fondobw.png');
+    background-size: cover;
+    color: #3a3b3c !important;
+}
+nav {
+    background-color: unset !important;
+}
+.text-bw {
+    color: #3A3B3C !important;
+}
+#header{
+    margin-bottom: 60px !important;
+}
+nav{
+    color: #3a3b3c !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+nav ul a, nav .brand-logo{
+    color: #3a3b3c !important;
+}
+nav ul li{
+    /* margin-top: 10vh; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav ul{
+    border-top: 1px #949494 solid ;
+    margin-top: 60px;
+}
+.logo{
+    width: 200px;
+}
+.nav-right{
+    margin-right: 10%;
+}
+.nav-left {
+    margin-left: 10%;
+}
+hr {
+    width: 80%;
+}
+.ciudad{
+    background-color: #3a3b3c;
+    color: white;
+    border-radius: 15px;
+    width: 50%;
+    float: left;
+}
+.ciudad h5{
+    font-size: 1.3rem !important ;
+}
+.select-ciudad{
+    /* border-radius: 15px;
+    border: 1px solid; */
+    width:50%;
+    float: right;
+}
+select {
+    display: unset !important;
+}
+.select-city {
+    border: 1px solid #3A3B3C !important;
+    background: unset !important;
+    border-radius: 15px !important;
+    text-align-last: center !important;
+}
+option {
+    color: #3A3B3C !important;
+    font-size: 1.2rem;
+    text-align-last: center !important;
+}
+.img {
+    width: 100% !important;
+}
+.space-banner {
+    margin-top: 50px;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #367E96 !important;
+}
+.footer-copyright{
+    background-color: #3a3b3c !important ;
+    padding: 2.5%;
+    height: 150px;
+    margin-bottom: 0 !important;
+    color: white !important;
+}
+.footer-copyright a{
+    color: white !important;
+}
+.logo-footer{
+    width: 170px;
+}
+.footer img{
+    height:80px;
+}
+.footer{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 250px;
+    background: #dadbdc;
+    margin-bottom: 0px !important;
+}
+.footer .col{
+    /* height: 200px; */
+    padding-top:6%;
+    
+}
+.footer-copyright h6{
+    font-size: .9rem !important;
+}
+.justify {
+    text-align: justify;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    .footer img {
+        height: 100px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .footer-copyright {
+        height: unset;
+    }
+    .slides {
+        height: 140px !important;
+    }
+    .slider {
+        height: 170px !important;
+    }
+}

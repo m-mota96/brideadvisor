@@ -1,0 +1,66 @@
+#changeCity {
+    display: unset;
+    background:
+    transparent;
+    border: 3px solid
+    #07b2dc;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+.pageContainer {
+    display: none;
+}
+.imgCarou {
+    cursor: pointer;
+    /* Aumentamos el ancho y la altura durante 1 segundo */
+    transition: width 1s, height 1s, transform 1s;
+    -moz-transition: width 1s, height 1s, -moz-transform 1s;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    -o-transition: width 1s, height 1s,-o-transform 1s;    
+}
+.imgCarou:hover {
+    /* tranformamos  su tamaño al pasar el mouse por encima con scale(2.5). */
+    transform : scale(1.1);
+    -moz-transform : scale(1.1);      /* Firefox */
+    -webkit-transform : scale(1.1);   /* Chrome - Safari */
+    -o-transform : scale(1.1);        /* Opera */
+}
+.img {
+    width: 100%;
+}
+.hr-bottom {
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+}
+.hr-carrera {
+    width: 50%;
+    border: solid 1px grey;
+}
+.justify {
+    text-align: justify;
+}
+.bold {
+    font-weight: bold;
+}
+.collapsible-header {
+    background: transparent !important;
+    border: unset !important;
+    box-shadow: unset !important;
+}
+.collapsible-header i {
+    color: grey;
+}
+.collapsible {
+    box-shadow: unset !important;
+    border: unset !important;
+}
+.collapsible-body {
+    padding-top: 0 !important;
+    padding-left: 8vh !important;
+}
+.btn-register {
+    font-weight: bold;
+    font-size: 3vh;
+}

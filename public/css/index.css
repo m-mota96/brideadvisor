@@ -1,0 +1,34 @@
+.background-search {
+    background: #EE9AAC;
+}
+.background-why {
+    background: #FB7497;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+.offset-exclusive {
+    margin-left: 111px;
+}
+.btn-home {
+    background: #FB7497;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+}
+.icons-index {
+    width: 25%;
+}
+.title {
+    border-left: 6px solid white;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 160px !important;
+}
+.round-img-home {
+    border-radius: 15px 15px 0px 0px !important;
+    height: 160px !important;
+    object-fit: cover !important;
+}
+.card {
+    border: unset !important;
+    border-radius: 15px !important;
+}
